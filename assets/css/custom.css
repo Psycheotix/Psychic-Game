@@ -1,0 +1,196 @@
+
+
+
+header{
+    margin-bottom: 0px;
+    padding:15px;
+    background-color: #252525;
+    color:#fff;
+}
+
+.container {
+    height: auto;
+}
+
+.banner-content .col-lg-6 .col-md-12{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+h3 {
+    color: #fff;
+    background-color: #0070D0;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1em;
+    padding: 5px;
+    
+}
+
+.container.fullwidth {
+    width: 100%;
+  }
+  
+  /* .container.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  } */
+
+  .row {
+    padding-top: 50px;
+  }
+  .row.no-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .pb-20 {
+    padding-bottom: 20px;
+  }
+
+  .p1-gradient-bg, .menu-top li:hover, .primary-btn, .primary-btn2:hover, .banner-area, .single-service:hover .lnr, .about-area .primary-btn2, .related-area .primary-btn2, .single-price:hover .bottom-sec, .single-price:hover .end-sec, .testimonial-area .overlay-bg, .footer-social a:hover, .single-footer-widget .bb-btn, .generic-banner {
+    
+    background-image: -moz-linear-gradient(90deg, #373737 0%, #515151 100%);
+    background-image: -webkit-linear-gradient(90deg, #373737 0%, #515151 100%);
+    background-image: -ms-linear-gradient(90deg, #373737 0%, #515151 100%);
+    background-image: url("../images/background-space.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  
+
+
+  .header-btn {
+    background-color: #fff;
+    border: 1px solid transparent;
+    color: #0070D0;
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+  
+  .header-btn:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #0070D0;
+  }
+
+  .col-lg-6 {
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+  }
+  .col-md-12 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.footer-bottom {
+    padding: 5px 0px;
+    background-color: #222222;
+    color:#fff;
+  }
+
+  @media (max-width: 1199px) {
+    .banner-area .fullscreen {
+      /* height: 800px !important; */
+      padding: 40px 0px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .banner-content {
+      text-align: center;
+    }
+    .p1-gradient-bg, .menu-top li:hover, .primary-btn, .primary-btn2:hover, .banner-area, .single-service:hover .lnr, .about-area .primary-btn2, .related-area .primary-btn2, .single-price:hover .bottom-sec, .single-price:hover .end-sec, .testimonial-area .overlay-bg, .footer-social a:hover, .single-footer-widget .bb-btn, .generic-banner {
+        background-size: 200%;
+      }
+  }
+  
+  .banner-content h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    /* line-height: 1em; */
+  }
+  
+  .banner-content h1 span {
+    font-weight: 700;
+  }
+  
+  @media (max-width: 991px) {
+    .banner-content h1 {
+      font-size: 36px;
+    }
+
+  }
+  
+  @media (max-width: 991px) {
+    .banner-content h1 br {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    .banner-content h1 {
+      font-size: 45px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .banner-content h1 {
+      /* margin-top: 60px; */
+    }
+    .p1-gradient-bg, .menu-top li:hover, .primary-btn, .primary-btn2:hover, .banner-area, .single-service:hover .lnr, .about-area .primary-btn2, .related-area .primary-btn2, .single-price:hover .bottom-sec, .single-price:hover .end-sec, .testimonial-area .overlay-bg, .footer-social a:hover, .single-footer-widget .bb-btn, .generic-banner {
+        background-size: 200%;
+      }
+  }
+
+  @media (max-width: 767px) {
+    .generic-banner .height {
+      height: 400px;
+    }
+    .p1-gradient-bg, .menu-top li:hover, .primary-btn, .primary-btn2:hover, .banner-area, .single-service:hover .lnr, .about-area .primary-btn2, .related-area .primary-btn2, .single-price:hover .bottom-sec, .single-price:hover .end-sec, .testimonial-area .overlay-bg, .footer-social a:hover, .single-footer-widget .bb-btn, .generic-banner {
+        background-size: 300%;
+      }
+  }
+  
+  .generic-banner .generic-banner-content h2 {
+    line-height: 1.2em;
+    /* margin-bottom: 20px; */
+  }
+  
+  @media (max-width: 991px) {
+    .generic-banner .generic-banner-content h2 br {
+      display: none;
+    }
+  }
+  
+  .generic-banner .generic-banner-content p {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+    .generic-banner .generic-banner-content p br {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 462px) {
+
+    .banner-content {
+        text-align: center;
+    }
+        .banner-content h1 {
+            color: #fff;
+            font-size: 48px;
+            font-weight: 700;
+            /* line-height: 1em; */
+            /* margin-bottom: 20px; */
+        }
+        
+        .banner-content h1 span {
+            font-weight: 700;
+        }
+        
+}
+
